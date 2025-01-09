@@ -1,5 +1,7 @@
 **Data Cleaning and Merging**
-To begin, I merged 64 datasets provided for this hackathon into a single clean dataset. This process involved:
+
+To begin, I merged 64 datasets provided for this hackathon into a single clean dataset. 
+This process involved:
 
 -Ensuring compatibility between files with different encodings.
 -Removing any inconsistencies or missing values.
