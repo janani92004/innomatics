@@ -9,10 +9,10 @@ df_list = []
 for file in csv_files:
     file_path = os.path.join(folder_path, file)
     try:
-        # Try reading with utf-8-sig encoding (handles BOM)
+        
         df = pd.read_csv(file_path, encoding='utf-8-sig')
     except UnicodeDecodeError:
-        # Fallback to ISO-8859-1 encoding if utf-8-sig fails
+       
         df = pd.read_csv(file_path, encoding='ISO-8859-1')
     df_list.append(df)
 
